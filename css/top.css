@@ -1,0 +1,49 @@
+
+body{
+	width: aout;
+	max-width: 600px;
+	height : aout;
+	margin:0 auto;  
+
+}
+
+
+
+/*ヘッダー*/
+
+#top{
+	width: aout;
+	max-width: 600px;
+	height : aout;
+	margin:0 auto;  
+	font-size: 30px;
+	font-weight: lighter; 
+	font-family: "ＭＳ 明朝",serif;
+}
+
+/*グローバルナビゲーション*/
+#gNavi {  
+
+   margin:10 auto;   
+    padding:0;  
+    width: 600; 
+    height:aout;  
+    overflow:hidden;  
+    
+}  
+
+/*a要素に対する熱い下線けし */
+#gNavi a{text-decoration: none; color: #8fbc8f;}
+
+#gNavi li { 
+ border-radius: 10px;
+background:#7fffd4;  
+list-style:none; 
+width: 116px;
+height:25px; 
+ float:left;
+ text-align: center;
+ border: solid 2px #ffffff;
+  }  
+ 
+#gNavi li:hover{background-color:#47a89c;}
